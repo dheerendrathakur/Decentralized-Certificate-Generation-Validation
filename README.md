@@ -1,5 +1,8 @@
 # Certificate Generation Validation using Blockchain
-
+## Author 
+-Dheerendra Pratap <br>
+-Aditya Raj <br>
+-Manas Verma 
 ## Introduction
 
 This project provides a Blockchain based solution for generating and verifying digital certificates. The certificate information (uid, candidate_name, course_name, org_name, ipfs_hash) is stored on the blockchain. First, the certificate pdf is generated and stored onto IPFS using Pinata service. Then, the IPFS hash obtained is stored on the blockchain along with other information.
@@ -24,7 +27,7 @@ The system comprises of 2 main entities:
 
 Clone the repository using the command:
 ```sh
-git clone https://github.com/Sahil181045/Certificate-Validation-System.git
+git clone https://github.com/dheerendrathakur/Decentralized_Certificate_Generation_Validation.git
 ```
 You can run the project either through:
 - [Local Setup](#local-setup)
